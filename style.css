@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,17 +7,51 @@
 
 ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     list-style-type: none;
     align-items: center;
-    padding: 16px;
-   
+    margin-left: 135px;
+    margin-right: 134px;
+    margin-top: 72px;
 }
+
+li{
+margin:auto;
+}
+
 a{
-    margin-top: 100%;
+
+font-family: 'Poppins', sans-serif;
+color: #FFFFFF;
+font-size: 24px;
+font-weight: 500px;
+line-height: 36px;
+font-style: normal;
+
 }
+
 img{
     
+    margin-top: 3%;
+    position: absolute;
     
-    
+}
+
+body{
+    background-image: url(Travel.png);
+}
+
+.Titulo{
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 144px;
+color: #FFFFFF;
+position: absolute;
+width: 868px;
+height: 144px;
+margin-left: 286px;
+margin-top: 209px;
+margin-right: 286px;
 }

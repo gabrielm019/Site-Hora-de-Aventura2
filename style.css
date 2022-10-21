@@ -1,89 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
     align-items: center;
     margin-left: 135px;
     margin-right: 134px;
-    margin-top: 72px;
 }
 
-li{
-margin:auto;
+li {
+    margin: auto;
 }
 
-a{
+a {
 
-font-family: 'Poppins', sans-serif;
-color: #FFFFFF;
-font-size: 24px;
-font-weight: 500px;
-line-height: 36px;
-font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 36px;
+    font-style: normal;
 
 }
 
-img{
-    
+img {
+
     margin-top: 3%;
     position: absolute;
-    
+
 }
 
-body{
+
+.Titulo {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 144px;
+    color: #FFFFFF;
+
+    width: 868px;
+    height: 144px;
+    margin-left: 286px;
+    margin-top: 209px;
+    margin-right: 286px;
+}
+
+.subtitulo {
+    width: 749px;
+    height: 72px;
+    margin-left: 346px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 275;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+button {
+    color: white;
+    height: 60px;
+    width: 191px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    padding: 16px 28px 16px 28px;
+    margin-left: 655px;
+    margin-top: 155px;
+    background-color: green;
+    font-family: 'Inter', sans-serif;
+    border: 2px solid #FFFFFF;
+}
+
+.image2 {
+    background-image: url(Travel2.png);
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.image3 {
+    background-image: url(Travel3.png);
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.image1{
     background-image: url(Travel.png);
+    padding-bottom: 100px;
 }
 
-.Titulo{
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 50px;
-line-height: 144px;
-color: #FFFFFF;
-
-width: 868px;
-height: 144px;
-margin-left: 286px;
-margin-top: 209px;
-margin-right: 286px;
+.Texto {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
 }
 
-.subtitulo{
-width: 749px;
-height: 72px;
-margin-left: 346px;
-margin-top: 50px;
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 275;
-font-size: 24px;
-line-height: 36px;
-text-align: center;
-color: #FFFFFF;
+.linha{
+    display: flex;
+    justify-content: space-around;
 }
-
-button{
-color: white;
-height: 60px;
-width: 191px;
-left: 0px;
-top: 0px;
-border-radius: 8px;
-padding: 16px 28px 16px 28px;
-margin-left: 655px;
-margin-top: 155px;
-background-color: green;
-font-family: 'Inter', sans-serif;
-border-color: #FFFFFF;
-}
-
-
